@@ -28,6 +28,7 @@ public class FiboBean
         {
             s += num + " ";
         }
+        System.out.println(s);
         return s;
     }
 

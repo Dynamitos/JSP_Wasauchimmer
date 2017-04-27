@@ -4,9 +4,25 @@
         <servlet-name>FiboServlet</servlet-name>
         <servlet-class>e102.FiboServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>CalcFiiboServlet</servlet-name>
+        <servlet-class>e103.CalcFiiboServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>InitServlet</servlet-name>
+        <servlet-class>e103.InitServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>FiboServlet</servlet-name>
         <url-pattern>/FiboServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CalcFiiboServlet</servlet-name>
+        <url-pattern>/CalcFiiboServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InitServlet</servlet-name>
+        <url-pattern>/InitServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
